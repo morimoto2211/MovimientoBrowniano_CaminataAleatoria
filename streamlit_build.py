@@ -80,7 +80,7 @@ def main():
     )
     
     caminatas = st.sidebar.number_input(
-        label ="Número de pasos",
+        label ="Número de caminatas",
         min_value = 1,
         max_value = 1000002,
         value = 1
